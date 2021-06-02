@@ -66,7 +66,7 @@
           <Button
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
-              android:text="Get FeedBack"
+              android:text="Show FeedBack"
               android:backgroundTint="#34b4eb"
               android:layout_gravity="center">
           </Button>
