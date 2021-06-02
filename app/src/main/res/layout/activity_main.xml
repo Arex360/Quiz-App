@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+   <LinearLayout
+       android:layout_marginTop="0dp"
+       android:layout_width="match_parent"
+       android:layout_centerHorizontal="true"
+       android:orientation="vertical"
+       android:gravity="center"
+       android:layout_height="wrap_content"
+
+       >
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="300dp"
+           android:orientation="vertical"
+           android:background="@drawable/gradient"
+           >
+           <androidx.cardview.widget.CardView
+               android:layout_marginTop="30dp"
+               android:layout_gravity="center"
+               android:layout_width="150dp"
+               android:layout_height="150dp"
+               app:cardCornerRadius="75dp"
+
+               >
+               <ImageView
+
+                   android:layout_width="100dp"
+                   android:layout_gravity="center"
+                   android:layout_height="100dp"
+                   android:src="@drawable/profile"
+                   ></ImageView>
+
+           </androidx.cardview.widget.CardView>
+           <TextView
+               android:layout_marginTop="30dp"
+               android:layout_gravity="center"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="User FeedBack"
+               android:textColor="@color/white"
+               android:textSize="40dp"
+               />
+       </LinearLayout>
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          android:layout_marginTop="80dp"
+          >
+
+          <Button
+              android:id="@+id/feedbackBtn"
+              android:layout_marginBottom="30dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:backgroundTint="#34b4eb"
+              android:text="Get FeedBack"
+              android:layout_gravity="center">
+          </Button>
+          <Button
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Get FeedBack"
+              android:backgroundTint="#34b4eb"
+              android:layout_gravity="center">
+          </Button>
+      </LinearLayout>
+   </LinearLayout>
+
+</RelativeLayout>
